@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* || General styles */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-top {
+  background-color: #0e4878;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#logo-top {
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#logo-top:hover {
+  background-color: #dde5ed3f;
+  border-radius: 5px;
+}
+
+#question_input {
+  border-radius: 25px; /* Makes the search bar a rounded rectangle */
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#question_input:focus {
+  border-color: #006ba1; /* Optional: change border color when focused */
+  box-shadow: 0 0 5px rgba(0, 107, 161, 0.5); /* Optional: add shadow when focused */
+}
+
+/* Style for each search result container */
+.search-result {
+  background-color: #f7f7f7; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Padding inside the rectangle */
+  margin-top: 15px; /* Space between results */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  position: relative;
+  line-height: 1.5;
+}
+
+/* Highlight on hover */
+.search-result:hover {
+  background-color: #505669; /* Highlight color on hover */
+  color: white; /* Change text color to white on hover for contrast */
+}
+
+.search-result a {
+  color: #0070e0; /* Inherit the color from the parent */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease, background-color 0.3s ease,
+    text-decoration 0.3s ease; /* Smooth transition */
+}
+
+/* Lighter href color inside the hovered search-result */
+.search-result:hover a {
+  color: #7ea3d0; /* Light gray color for links on hover */
+  border-radius: 3px; /* Slightly rounded corners for the link highlight */
+  text-decoration: underline; /* Optional: underline the link on hover */
+}
+
+.filetype-label {
+  display: inline-block;
+  background-color: #3a3f4f; /* Dark background for contrast */
+  color: white; /* White text color */
+  border-radius: 15px; /* More rounded corners for a pill shape */
+  padding: 3px 10px; /* Padding inside the label */
+  font-size: 12px; /* Smaller font size */
+  margin-left: 10px; /* Space between the text and the label */
+  border: 1px solid #2d313a; /* Subtle border to match the style */
+  text-transform: uppercase; /* Make text uppercase */
+  font-weight: 500; /* Slightly bolder text */
+  white-space: nowrap; /* Ensure the text stays on one line */
+  vertical-align: middle; /* Align vertically with surrounding text */
+  position: absolute; /* Position absolutely within the search result */
+  bottom: 10px; /* Distance from the bottom of the container */
+  right: 10px; /* Distance from the right of the container */
+}
+
+.search-result:hover .filetype-label {
+  background-color: white; /* White background on hover */
+  color: black; /* Black text on hover */
+  border-color: black; /* Change border to black */
+}
+
+.search-result-content {
+  line-height: 0.6; /* Adjust this value to reduce or increase spacing between lines */
+  margin-bottom: 3px; /* Adjust margin to control spacing between paragraphs or elements */
+}
+
+.search-result h6 {
+  font-size: 1.01em; /* Slightly increase the font size */
+  margin-bottom: 10px; /* Adjust the margin to control spacing */
+  font-weight: bold; /* Ensure it is bold */
+}
+
+.gear-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.5s, background-color 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Hover Effect */
+.gear-icon:hover {
+  background-color: #e0e0e0; /* Gray background */
+  border-radius: 50%; /* Circle shape */
+  transform: rotate(360deg); /* Rotate gear icon */
+}
+
+.date-added {
+  color: #888888; /* Lighter gray color for the date */
+  /* font-style: italic; Optional: make the date italic */
+}
+
+.search-result:hover .date-added {
+  color: #e7e7e7; /* Even lighter gray color on hover */
+}
+
+/* Style for when the date is not available */
+.date-not-available {
+  color: inherit; /* Inherit the parent color */
+  font-style: normal; /* Do not italicize */
+}
+
+/* Reduce gap between checkbox and date inputs */
+.tools-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* General gap between sections */
+}
+
+.date-filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* Reduced gap between date filter checkbox and date inputs */
+  margin-top: 0px; /* Small margin to separate from other inputs */
+}

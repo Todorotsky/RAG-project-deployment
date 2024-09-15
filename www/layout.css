@@ -1,0 +1,17 @@
+.page-header {
+    grid-area: header;
+}
+
+/* .navbar-top {
+    grid-template-columns: 140px 1fr auto 1fr 150px 40px;
+    grid-template-rows: minmax(0, 1fr);
+  
+    grid-template-areas:
+      "... ... ... ... logo logo";
+  
+    height: 60px;
+    width: 100%;
+  
+    padding: 20px;
+    gap: 20px;
+} */

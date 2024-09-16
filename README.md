@@ -63,3 +63,7 @@ Now, the app has been deployed to Shinyapps with a custom URL.
 4. QDrant (vector store to store document chunk embeddings)
 5. Shiny (User Interface)
 
+## Current Document Used
+Sample documents used for testing can be accessed using this link: 
+https://drive.google.com/drive/folders/1aZvRsKLIFJGBnY4-4soxnNS77BBiIYY3?usp=drive_link
+

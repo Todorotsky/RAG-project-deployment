@@ -47,7 +47,6 @@ Now, the app has been deployed to Shinyapps with a custom URL.
 3. Search based on keyword or ask a question to receive a summarized response by document for the top relevant matches. The model also assigns a vector based similarity score for the top most relevant matches. Here are some sample examples:
 ![image](https://github.com/user-attachments/assets/b961775f-2df5-4ea6-b34e-7453351a6da2)
 ![image2](https://github.com/user-attachments/assets/3c1b4b64-e2ef-4e87-8930-6be5b13aa4cc)
-![image3](https://github.com/user-attachments/assets/c1b390a8-ef51-4ded-9dc1-6e96a86f6b87)
 ![image4](https://github.com/user-attachments/assets/e32ee43b-8511-4f06-b0a5-e4bdd0ccf677)
 
 

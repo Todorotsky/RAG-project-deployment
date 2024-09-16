@@ -1,6 +1,6 @@
 # RAG-project
 
-This project demonstrates a Retrieval-Augmented Generation (RAG) AI-powered search engine. The Shiny application developed in this project allows users to upload various document types, which are then analyzed and indexed by an AI model. The app provides an intuitive search interface that leverages RAG to deliver precise and contextually relevant results.
+This project demonstrates a Retrieval-Augmented Generation (RAG) AI-powered search engine. The Shiny application developed in this project allows users to upload various document types (pdf, docx, pptx), which are then analyzed and indexed by an AI model. The app provides an intuitive search interface that leverages RAG to deliver precise and contextually relevant results.
 
 ## Key Prerequisites and Setup
 

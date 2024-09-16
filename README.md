@@ -51,7 +51,7 @@ Now, the app has been deployed to Shinyapps with a custom URL.
 
 
 ## Key Features
-1. Display the top document matches from the repository based on your user query and search settings across different document types (Note: Try out different query combinations. To get more relevant results, ensure that the query is specifc to what you are looking for).
+1. Display the top document matches from the repository based on your user query and search settings across different document types (Note: Try out different query combinations. To get more relevant results, ensure that the query is specific to what you are looking for).
 2. Get summarized AI generated responses based on your query for the most relevant document matches.
 3. Get the page numbers of the documents (if applicable) that are most likely to contain relevant information about your query
 4. Display a AI generated similarity score between 0 and 1 (where 1 denotes the highest match) between the query and the document.

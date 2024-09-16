@@ -44,10 +44,11 @@ Now, the app has been deployed to Shinyapps with a custom URL.
 2. Set the relevant search and filter settings based on your preference. You can filter the results by document type (such as show only the pdf results), sort the documents by relevancy or date added, or only search across the documents which have been uploaded within a custom date range of your choice (Note: For the last one, the date filter checkbox must be enabled).
 ![Search Settings](https://github.com/user-attachments/assets/6435cb5f-92df-45f0-9cbb-fa2f7073e16c)
 
-3. Search based on keyword or ask a question to receive a summarized response by document for the top relevant matches. Here are some sample examples:
-![image](https://github.com/user-attachments/assets/dd4fb417-20f0-451f-878d-0604f6f25711)
-![Lixcap Q1](https://github.com/user-attachments/assets/af835df1-7bf4-415c-b121-62750850fb02)
-![Lixcap Q2](https://github.com/user-attachments/assets/fb32f1c1-6a90-416b-9748-ac3f3bdb2920)
+3. Search based on keyword or ask a question to receive a summarized response by document for the top relevant matches. The model also assigns a vector based similarity score for the top most relevant matches. Here are some sample examples:
+![image](https://github.com/user-attachments/assets/b961775f-2df5-4ea6-b34e-7453351a6da2)
+![image2](https://github.com/user-attachments/assets/3c1b4b64-e2ef-4e87-8930-6be5b13aa4cc)
+![image3](https://github.com/user-attachments/assets/c1b390a8-ef51-4ded-9dc1-6e96a86f6b87)
+![image4](https://github.com/user-attachments/assets/e32ee43b-8511-4f06-b0a5-e4bdd0ccf677)
 
 
 ## Key Features
